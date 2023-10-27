@@ -25,6 +25,7 @@
 
 nav {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
@@ -47,7 +48,7 @@ nav {
     display: flex;
     flex: 1;
     justify-content: right;
-    margin-right: 100px;
+  
 }
 
 .item {
@@ -70,6 +71,7 @@ nav {
 
 .info {
     display: flex;
+     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 
